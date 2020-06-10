@@ -44,11 +44,14 @@
 //hacemos rollback de todas las migraciones
 //php artisan migrate:reset
 
-// crear migracion con tabla en base de datos
+// crear migracion con tabla
 //php artisan make:migration create_users_table --create=users
 
 // crear la migracion solamente
 //php artisan make:migration create_users_table
+
+// subir las semillas la data
+// php artisan db:seed
 
 
 
